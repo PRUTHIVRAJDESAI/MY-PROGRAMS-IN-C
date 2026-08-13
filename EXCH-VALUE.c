@@ -1,3 +1,5 @@
+//This code basically swaps the values of two variables a and b using a third variable c.
+
 #include <stdio.h>;
 
 int main() {
