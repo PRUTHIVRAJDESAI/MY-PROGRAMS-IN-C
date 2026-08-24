@@ -1,4 +1,4 @@
-// Calculate Simple Interest
+// Calculate Simple Interest Value
 #include <stdio.h>
 int main ()
 {
