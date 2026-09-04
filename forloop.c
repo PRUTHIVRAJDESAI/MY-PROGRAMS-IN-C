@@ -5,7 +5,7 @@ int main() {
     printf("Enter value of x: ");
     scanf("%d", &x);
 
-    for (; x<100; x++)
+    for (; x<100; x+=2)
     {
         printf("%d\n", x);
     }
