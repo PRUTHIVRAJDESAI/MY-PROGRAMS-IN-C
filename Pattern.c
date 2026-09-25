@@ -5,29 +5,35 @@ int main() {
     char ch;
     d = 0;
 
-    // printf("Enter type of pattern 1.normal, 2.inverted, 3.hollow and 4.inverted hollow");
-    // scanf("%c", &ch);
+    printf("Enter type of pattern 1.normal: ");
+    scanf(" %c", &ch);
     printf("Enter the number of rows needed: ");
     scanf("%d", &n);
 
+    switch(ch) {
     //normal pattern
-    // for(i = 1;i <= n; i++ ) {
-    //     for(j = 1; j <= i; j++) {
-    //         printf("* ");
-    //     }
-    //     printf("\n");
-    // }
-
-    //inverted pattern
-    for(i = 1; i <= n; i++) {
-        for(k = 1; k < i; k++) {
-            printf(" ");
-        }
-        for(j = 1; j <= n-d; j++) {
+    case '1':
+    for(i = 1;i <= n; i++ ) {
+        for(j = 1; j <= i; j++) {
             printf("* ");
         }
-        d = d + 1;
         printf("\n");
+    }
+    break;
+
+    //inverted pattern
+    // case '2':
+    // for(i = 1; i <= n; i++) {
+    //     for(k = 1; k < i; k++) {
+    //         printf(" ");
+    //     }
+    //     for(j = 1; j <= n-d; j++) {
+    //         printf("* ");
+    //     }
+    //     d = d + 1;
+    //     printf("\n");
+    // }
+    // break;
     }
     return 0;
 }
