@@ -21,19 +21,7 @@ int main() {
     }
     break;
 
-    //inverted pattern
-    // case '2':
-    // for(i = 1; i <= n; i++) {
-    //     for(k = 1; k < i; k++) {
-    //         printf(" ");
-    //     }
-    //     for(j = 1; j <= n-d; j++) {
-    //         printf("* ");
-    //     }
-    //     d = d + 1;
-    //     printf("\n");
-    // }
-    // break;
+   
     }
     return 0;
 }
