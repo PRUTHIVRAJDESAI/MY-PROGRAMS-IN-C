@@ -5,7 +5,7 @@ int main() {
     char ch;
     d = 0;
 
-    printf("Enter type of pattern: 1.right angled triangle, 2.inverted right angled triangle, 3.normal triangle, 4.inverted normal triangle, 5.square: ");
+    printf("Enter type of pattern: 1.Right angled triangle, 2.Inverted right angled triangle, 3.Normal triangle, 4.Inverted normal triangle, 5.Square, 6.Rectangle: ");
     scanf(" %c", &ch);
     printf("Enter the number of rows needed: ");
     scanf("%d", &n);
